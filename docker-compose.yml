@@ -1,0 +1,11 @@
+services:
+  wii-dev:
+    image: devkitpro/devkitppc:latest
+    container_name: wii-dev-container
+    user: "1000:1000"
+    volumes:
+      - ../:/workspace:Z
+    working_dir: /workspace
+    stdin_open: true
+    tty: true
+
