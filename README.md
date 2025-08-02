@@ -23,19 +23,6 @@ This repo contains a portable, containerized development environment for buildin
 
 ---
 
-## 🛠️ Project Structure
-
-.
-├── Dockerfile # Docker setup with devkitPPC & GRRLIB
-├── docker-compose.yml # Mounts workspace and starts container
-├── pong/ # Your actual homebrew app (example)
-│ ├── Makefile
-│ ├── source/
-│ └── ...
-└── GRRLIB/ # Cloned GRRLIB build (if used locally)
-
----
-
 ## 🚀 Getting Started
 
 ### 1. Clone the repo
